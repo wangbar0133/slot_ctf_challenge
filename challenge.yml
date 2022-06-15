@@ -3,6 +3,7 @@ contract: slot  # Challenge contract name(class name)
 # The description will be displayed when players nc to the challenge
 description: |
  Easy slot!
+ 0x7e3ed5d28db7be6b572bf96f37ae92f98b491a5f@ropsten
 
 flag: flag{B80342AC4430A85198B9802714924134}
 
