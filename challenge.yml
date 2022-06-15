@@ -1,0 +1,18 @@
+contract: slot  # Challenge contract name(class name)
+
+# The description will be displayed when players nc to the challenge
+description: |
+ Easy slot!
+
+flag: flag{B80342AC4430A85198B9802714924134}
+
+constructor:
+  args: []
+  value: 0
+  #gas: 1000000          # The default value is the response value of the eth_estimateGas JSON-RPC
+
+show_source: True      # Show source option available by default, you need to set False for a reverse contract challenge
+
+solved_event: SendFlag  # The default is to use isSolved() view function as solved checker, but emitted event checker is also supported
+
+deployed_addr: 0x7e3ed5d28db7be6b572bf96f37ae92f98b491a5f  # Use a pre-deployed contract for all players instead of deploying individually
